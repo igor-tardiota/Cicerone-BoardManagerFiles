@@ -1,0 +1,181 @@
+{
+    "packages": [
+      {
+        "name": "Move-X",
+        "websiteURL": "https://github.com/igor-tardiota",
+        "maintainer": "Move-X",
+        "email": "igor.tardiota@movesolutions.it",
+        "help": {
+          "online": "http://www.move-x.it/"
+          },
+        "platforms": [
+          {
+            "name": "STM32 MCU based boards",
+            "architecture": "stm32",
+            "version": "1.0.0",
+            "category": "Contributed",
+            "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Cicerone_STM32-1.0.0.tar",
+            "archiveFileName": "Cicerone_STM32-1.0.0.tar",
+            "checksum": "SHA-256:61D273E3B5180C973861B02A907FB360ACB31152D9D12BCC3471E926DCE3939D",
+            "size": "478755328",
+            "boards": [
+              {"name": "STM32WLE5JBIX"}
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "Move-X",
+                "name": "xpack-arm-none-eabi-gcc",
+                "version": "10.3.1-2.3"
+              },
+              {
+                "packager": "Move-X",
+                "name": "Move-X_STM32Tools",
+                "version": "1.0.0"
+              },
+              {
+                "packager": "Move-X",
+                "name": "CMSIS",
+                "version": "5.7.0"
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "name": "xpack-arm-none-eabi-gcc",
+            "version": "10.3.1-2.3",
+            "systems":
+            [
+              {
+                "host": "arm-linux-gnueabihf",
+                "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-arm.tar.gz",
+                "archiveFileName": "xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-arm.tar.gz",
+                "checksum": "SHA-256:cf152bb008697143b802a85fffffc2c9b562bc1e6d0984ad02d4ee1f1bb91790",
+                "size": "169168939"
+              },
+              {
+                "host": "aarch64-linux-gnu",
+                "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-arm64.tar.gz",
+                "archiveFileName": "xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-arm64.tar.gz",
+                "checksum": "SHA-256:6e3ee605079ba084836cd057022e16c28605f4068042cd14397976b836ea1a21",
+                "size": "174454524"
+              },
+              {
+                "host": "i686-mingw32",
+                "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-win32-ia32.zip",
+                "archiveFileName": "xpack-arm-none-eabi-gcc-10.3.1-2.3-win32-ia32.zip",
+                "checksum": "SHA-256:c98fc443d7ef3524d42a40b6635e8b99c736efac77729f8a70463bb9ba19bc85",
+                "size": "180590105"
+              },
+              {
+                "host": "x86_64-apple-darwin",
+                "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-darwin-x64.tar.gz",
+                "archiveFileName": "xpack-arm-none-eabi-gcc-10.3.1-2.3-darwin-x64.tar.gz",
+                "checksum": "SHA-256:eb9218eaafb74a05fab9cbbeb49fd4fe7b85c6ba411aefc66f681a5a862e8d8e",
+                "size": "173440158"
+              },
+              {
+                "host": "x86_64-pc-linux-gnu",
+                "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-x64.tar.gz",
+                "archiveFileName": "xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-x64.tar.gz",
+                "checksum": "SHA-256:559dcf1c2dfddac513110fe23da0ef254032c09967eaa901f075515d51818719",
+                "size": "175646740"
+              },
+              {
+                "host": "i686-pc-linux-gnu",
+                "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v10.3.1-2.3/xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-ia32.tar.gz",
+                "archiveFileName": "xpack-arm-none-eabi-gcc-10.3.1-2.3-linux-ia32.tar.gz",
+                "checksum": "SHA-256:8a6621590ac2f0b33fc71f1c501af6b60e900fc3d895a11f20de850cd4f55ca3",
+                "size": "179184840"
+              }
+            ]
+          },
+          {
+            "name": "CMSIS",
+            "version": "5.7.0",
+            "systems":
+            [
+              {
+                "host": "i686-mingw32",
+                "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+                "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+                "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+                "size": "26151901"
+              },
+              {
+                "host": "x86_64-apple-darwin",
+                "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+                "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+                "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+                "size": "26151901"
+              },
+              {
+                "host": "x86_64-pc-linux-gnu",
+                "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+                "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+                "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+                "size": "26151901"
+              },
+              {
+                "host": "i686-pc-linux-gnu",
+                "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+                "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+                "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+                "size": "26151901"
+              },
+              {
+                "host": "arm-linux-gnueabihf",
+                "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+                "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+                "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+                "size": "26151901"
+              },
+              {
+                "host": "all",
+                "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+                "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+                "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+                "size": "26151901"
+              }
+            ]
+          },
+          {
+            "name": "Move-X_STM32Tools",
+            "version": "1.0.0",
+            "systems":
+            [
+              {
+                "host": "i686-mingw32",
+                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Move-X_STM32Tools-1.0.0-windows.tar",
+                "archiveFileName": "Move-X_STM32Tools-1.0.0-windows.tar",
+                "checksum": "SHA-256:46F2BB583229059E7D49967759CF8D2D4E0737C5DB74D3A0A7DBFA24CD5EDED0",
+                "size": "4006400"
+              },
+              {
+                "host": "x86_64-apple-darwin",
+                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Move-X_STM32Tools-1.0.0-mac.tar",
+                "archiveFileName": "Move-X_STM32Tools-1.0.0-mac.tar",
+                "checksum": "SHA-256:D1FECF59D42F4601640404E72F7FDEEC9AB0444912252628CB02DC2E5461F91D",
+                "size": "4067840"
+              },
+              {
+                "host": "x86_64-pc-linux-gnu",
+                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Move-X_STM32Tools-1.0.0-linux.tar",
+                "archiveFileName": "Move-X_STM32Tools-1.0.0-linux.tar",
+                "checksum": "SHA-256:8C35A4656F9475C5C971A4E18812A03F73576E60CBCBB8B04BB132ACE0E4FD3D",
+                "size": "8136192"
+              },
+              {
+                "host": "i686-pc-linux-gnu",
+                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Move-X_STM32Tools-1.0.0-linux.tar",
+                "archiveFileName": "Move-X_SMMTM32Tools-1.0.0-linux.tar",
+                "checksum": "SHA-256:8C35A4656F9475C5C971A4E18812A03F73576E60CBCBB8B04BB132ACE0E4FD3D",
+                "size": "8136192"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
