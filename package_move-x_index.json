@@ -14,7 +14,7 @@
             "architecture": "stm32",
             "version": "1.0.0",
             "category": "Contributed",
-            "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Cicerone_STM32-1.0.0.tar",
+            "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Cicerone_STM32-1.0.0.tar",
             "archiveFileName": "Cicerone_STM32-1.0.0.tar",
             "checksum": "SHA-256:61D273E3B5180C973861B02A907FB360ACB31152D9D12BCC3471E926DCE3939D",
             "size": "478755328",
@@ -146,28 +146,28 @@
             [
               {
                 "host": "i686-mingw32",
-                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Move-X_STM32Tools-1.0.0-windows.tar",
+                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Move-X_STM32Tools-1.0.0-windows.tar",
                 "archiveFileName": "Move-X_STM32Tools-1.0.0-windows.tar",
                 "checksum": "SHA-256:46F2BB583229059E7D49967759CF8D2D4E0737C5DB74D3A0A7DBFA24CD5EDED0",
                 "size": "4006400"
               },
               {
                 "host": "x86_64-apple-darwin",
-                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Move-X_STM32Tools-1.0.0-mac.tar",
+                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Move-X_STM32Tools-1.0.0-mac.tar",
                 "archiveFileName": "Move-X_STM32Tools-1.0.0-mac.tar",
                 "checksum": "SHA-256:D1FECF59D42F4601640404E72F7FDEEC9AB0444912252628CB02DC2E5461F91D",
                 "size": "4067840"
               },
               {
                 "host": "x86_64-pc-linux-gnu",
-                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Move-X_STM32Tools-1.0.0-linux.tar",
+                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Move-X_STM32Tools-1.0.0-linux.tar",
                 "archiveFileName": "Move-X_STM32Tools-1.0.0-linux.tar",
                 "checksum": "SHA-256:8C35A4656F9475C5C971A4E18812A03F73576E60CBCBB8B04BB132ACE0E4FD3D",
                 "size": "8136192"
               },
               {
                 "host": "i686-pc-linux-gnu",
-                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/1.0.0/Move-X_STM32Tools-1.0.0-linux.tar",
+                "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Move-X_STM32Tools-1.0.0-linux.tar",
                 "archiveFileName": "Move-X_SMMTM32Tools-1.0.0-linux.tar",
                 "checksum": "SHA-256:8C35A4656F9475C5C971A4E18812A03F73576E60CBCBB8B04BB132ACE0E4FD3D",
                 "size": "8136192"
