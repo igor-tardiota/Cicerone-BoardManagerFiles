@@ -148,29 +148,29 @@
                 "host": "i686-mingw32",
                 "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Move-X_STM32Tools-1.0.0-windows.tar",
                 "archiveFileName": "Move-X_STM32Tools-1.0.0-windows.tar",
-                "checksum": "SHA-256:46F2BB583229059E7D49967759CF8D2D4E0737C5DB74D3A0A7DBFA24CD5EDED0",
-                "size": "4006400"
+                "checksum": "SHA-256:4A54D02934357A6F02112F66368C6F98BB16946ED3FF0FB9EA202A70E2156745",
+                "size": "4006912"
               },
               {
                 "host": "x86_64-apple-darwin",
                 "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Move-X_STM32Tools-1.0.0-mac.tar",
                 "archiveFileName": "Move-X_STM32Tools-1.0.0-mac.tar",
-                "checksum": "SHA-256:D1FECF59D42F4601640404E72F7FDEEC9AB0444912252628CB02DC2E5461F91D",
-                "size": "4067840"
+                "checksum": "SHA-256:F5A634A0BA2A30F46E6311858F51F46DECEB36C96A6F01EE0AC305118A7E082B",
+                "size": "61440"
               },
               {
                 "host": "x86_64-pc-linux-gnu",
                 "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Move-X_STM32Tools-1.0.0-linux.tar",
                 "archiveFileName": "Move-X_STM32Tools-1.0.0-linux.tar",
-                "checksum": "SHA-256:8C35A4656F9475C5C971A4E18812A03F73576E60CBCBB8B04BB132ACE0E4FD3D",
-                "size": "8136192"
+                "checksum": "SHA-256:B4A020162F59AEC65B83ACAAC60F96438C1843F8AAEB5E3CA20284BB88AB6830",
+                "size": "61440"
               },
               {
                 "host": "i686-pc-linux-gnu",
                 "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Move-X_STM32Tools-1.0.0-linux.tar",
                 "archiveFileName": "Move-X_SMMTM32Tools-1.0.0-linux.tar",
-                "checksum": "SHA-256:8C35A4656F9475C5C971A4E18812A03F73576E60CBCBB8B04BB132ACE0E4FD3D",
-                "size": "8136192"
+                "checksum": "SHA-256:B4A020162F59AEC65B83ACAAC60F96438C1843F8AAEB5E3CA20284BB88AB6830",
+                "size": "61440"
               }
             ]
           }
