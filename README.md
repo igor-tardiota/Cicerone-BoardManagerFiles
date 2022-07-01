@@ -1,2 +1,2 @@
 # Cicerone-BoardManagerFiles
-Files for Cicerone Arduino Support
+Storage for Arduino Boards Manager JSON and package files for the (STM32 based) Cicerone board support.
