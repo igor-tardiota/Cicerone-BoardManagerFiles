@@ -16,8 +16,8 @@
             "category": "Contributed",
             "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.0.0/Cicerone_STM32-1.0.0.tar",
             "archiveFileName": "Cicerone_STM32-1.0.0.tar",
-            "checksum": "SHA-256:61D273E3B5180C973861B02A907FB360ACB31152D9D12BCC3471E926DCE3939D",
-            "size": "478755328",
+            "checksum": "SHA-256:B0FDCC62E6FD4198197928E13CC0C60F464C90E62ACFFAA59CD7A9C7D8A6E51D",
+            "size": "17251840",
             "boards": [
               {"name": "STM32WLE5JBIX"}
             ],
