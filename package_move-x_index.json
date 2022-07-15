@@ -38,6 +38,37 @@
                 "version": "5.7.0"
               }
             ]
+          },
+          {
+            "name": "STM32 MCU based boards",
+            "architecture": "stm32",
+            "version": "1.1.0",
+            "category": "Contributed",
+            "url": "https://github.com/igor-tardiota/Cicerone-BoardManagerFiles/releases/download/v1.1.0/Cicerone_STM32-1.1.0.tar",
+            "archiveFileName": "Cicerone_STM32-1.1.0.tar",
+            "checksum": "SHA-256:C922605A24751E7E34432152C591D5C968F73E84C813D603EB6E68D9229C62A9",
+            "size": "24124928",
+            "boards": [
+              {"name": "Cicerone"},
+              {"name": "Gewneric MAMWLE"}
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "Move-X",
+                "name": "xpack-arm-none-eabi-gcc",
+                "version": "10.3.1-2.3"
+              },
+              {
+                "packager": "Move-X",
+                "name": "Move-X_STM32Tools",
+                "version": "1.0.0"
+              },
+              {
+                "packager": "Move-X",
+                "name": "CMSIS",
+                "version": "5.7.0"
+              }
+            ]
           }
         ],
         "tools": [
